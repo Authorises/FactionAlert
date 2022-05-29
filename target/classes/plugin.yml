@@ -1,0 +1,5 @@
+name: FactionAlert
+version: '1.0-SNAPSHOT'
+main: dev.authorises.factionalert.FactionAlert
+api-version: 1.8
+depend: [FactionsBridge]

@@ -1,0 +1,28 @@
+# Configuration for FactionAlert v1.0 by Authorises
+#
+
+prefix: '&f(&b!&f)'
+date-format: 'dd/MM/yyyy HH:mm:ss'
+
+# The configurable messages use placeholders.
+# The placeholders are:
+# %PLAYER% - Shows the player's username
+# %DISPLAY% - Shows the player's display name
+# %FACTION% - Shows the name of the faction
+# %TIME% - Shows the time
+# %MESSAGE% - Shows the message
+
+chat-message:
+  enabled: true
+  format: '&bFaction&fAlert &b%DISPLAY%: %MESSAGE%'
+title:
+  main-title:
+    enabled: true
+    format: '&b&lFaction Alert'
+  sub-title:
+    enabled: true
+    format: '&7%MESSAGE%'
+action-bar:
+  enabled: true
+  format: '&f[&b %DISPLAY%&f ] &b%MESSAGE%'
+usage-message: '&f(&b!&f) Usage: &b/f alert <message>'
